@@ -9,4 +9,4 @@ RUN mkdir -p /data/db
 
 EXPOSE 27017
 
-ENTRYPOINT ["usr/bin/mongodb"]
+ENTRYPOINT ["usr/bin/mongod"]
